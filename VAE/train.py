@@ -13,8 +13,8 @@ import os
 from vae import VAE
 
 
-n_epoch = 1000
-save_result = 10
+n_epoch = 150
+save_result = 1
 
 device = torch.device("cuda:0")
 model = VAE(device = device)
